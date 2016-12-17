@@ -511,7 +511,7 @@ html.ie7 .icon-home {
 	font-family:'Montserrat', sans-serif;
 
 }
-.subtitle {margin-left: 45px; font-family: 'Herr Von Muellerhoff', cursive; font-size:60px; color:#777; position: absolute;  top: 50%; margin-top:-155px; font-weight:bold; letter-spacing:5px}
+.subtitle {margin-left: 155px; font-family: 'Herr Von Muellerhoff', cursive; font-size:50px; color:#777; position: absolute;  top: 25%; margin-top:-155px; font-weight:bold; letter-spacing:5px}
 
 .home-block .home-content {
 	bottom: 0;
