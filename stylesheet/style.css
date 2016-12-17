@@ -496,11 +496,11 @@ html.ie7 .icon-home {
 	position: absolute;
 	width: 100%;
 	z-index: 12;
-	background-size:cover
+	background-size: cover;
   opacity: 0.6;
 }
 .home-block h1 {
-	color: #333;
+  color: #333;
 	/* font-family: sans-serif; */
 	font-size: 66px;
 	font-weight: 600;
