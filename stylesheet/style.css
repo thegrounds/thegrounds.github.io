@@ -2,9 +2,9 @@
  * Prime Responsive Portfolio Template
  * Author: ThemesGround
  * Author URL: https://www.themesground.com/
- * License: Attribution-NonCommercial CC BY-NC 
+ * License: Attribution-NonCommercial CC BY-NC
 
- * 
+ *
  * -------------------------------------------------------------------
  * This theme under "Attribution-NonCommercial CC BY-NC". You can't remove footer credit link.
  Text Domain: Prime
@@ -13,13 +13,13 @@
 
 1.	Body
 
-2.	Layout 
+2.	Layout
 
 3.	Header
 
-4.	Navigation 
+4.	Navigation
 
-5.	Intro 
+5.	Intro
 
 6.	About us
 
@@ -351,7 +351,7 @@ html.ie7 .icon-home {
 	width: 100%;
 	z-index: 2;
 	margin-top: -1px;
-	
+
 }
 .colours.moving {
 	color: transparent;
@@ -456,7 +456,7 @@ html.ie7 .icon-home {
 .colours a.who_we_are,
 .content-panel.who_we_are{
 	background-color: #f2b701;
-	
+
 }
 
 
@@ -488,7 +488,7 @@ html.ie7 .icon-home {
 
 /* 5. Intro */
 .home-block {
-	background: #fff url(../images/photo-img.jpg) no-repeat top left;
+	background: #fff url(../images/TheGrounds_1.jpg) no-repeat top left;
 	color: #58585a;
 	height: 100%;
 	float: left;
@@ -540,7 +540,7 @@ html.ie7 .icon-home {
 	color: #3e3e40;
 	display: block;
 	margin-top: 32px;
-	padding:10px; 
+	padding:10px;
 	padding-left: 35px; /* was 20px */
 	width: 50%;
 	border:none;
@@ -562,13 +562,13 @@ html.ie7 .icon-home {
 .info-block{ position:absolute; width:260px; color:#fff; border-radiua:3px; margin-left:35px; margin-top:80px; background:#000}
 .info-block ul {overflow:hidden; text-align:left; padding:0px; margin:0px!important}
 .info-block ul li{ display:block; text-align:left; padding:0px; margin:0px!important; padding:20px 25px; border-bottom:1px rgba(255,255,255,0.4) solid; }
-.info-block ul li:last-child{ border-bottom:none} 
+.info-block ul li:last-child{ border-bottom:none}
 .info-block .social-buttons {
-     float: none; 
+     float: none;
     height: auto;
     margin: 0px;
     position: relative;
-    z-index: 3; 
+    z-index: 3;
     overflow: hidden;
 }
 .info-block .social-buttons a{ background:#fff!important}
@@ -604,7 +604,7 @@ html.ie7 .icon-home {
 }
 
 
-/* 7. What We do */ 
+/* 7. What We do */
 .box { border:1px #e5e5e5 solid; text-align:center; margin-top:30px; cursor:pointer; background:#f8f8f8}
 .box .icon {margin:35px 0px}
 .box p {margin:20px 50px 30px 50px!important; color:#999}
@@ -618,8 +618,8 @@ html.ie7 .icon-home {
 .design-count { background:#dc0030; padding:45px 0px; margin-left:35px; margin-right:35px; margin-top:30px; color:#fff; text-align:center; font-family: 'Montserrat', sans-serif;}
 .counter-number {font-size:40px; font-weight:bold; display:inline-block; border-bottom:1px #fff dashed; line-height:30px; padding-bottom:20px; padding-top:10px}
 .text-small {text-transform:uppercase; font-size:11px; font-weight:bold; display:block; padding-top:12px; letter-spacing:1px}
-/* 8. Work */ 
- 
+/* 8. Work */
+
 .portfolio {
   padding:25px 0px 0 0;
 }
@@ -633,7 +633,7 @@ html.ie7 .icon-home {
 .filter .btn {
   font-weight: 400;
   border-radius:2px;
-  
+
 }
 
 .filter .btn-main {
@@ -931,8 +931,8 @@ address {background:#f8f8f8; padding:10px 30px}
 }
 .content-box .paragraphs.no-columns,
 .content-box .paragraphs article {
-	
-	
+
+
 }
 
 .wp-caption img {width:100%}
@@ -999,13 +999,13 @@ address {background:#f8f8f8; padding:10px 30px}
     font-size: 18px;
     left: 50%;
     margin-left: -5px;}
-	
+
 article {
 	/* margin-left: 8px; */
 	border-bottom:1px #e5e5e5 solid;
 	margin-bottom:30px;
 	padding-bottom:10px
-}	
+}
 
 .hidden {
 	display: none;
