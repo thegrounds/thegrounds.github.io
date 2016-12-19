@@ -1017,10 +1017,10 @@ article {
 .home {padding:0px}
 .home-block {height:100%!important; position:relative!important; text-align: center;background-size: cover;}
 .social-buttons {float: none; height:auto; margin: 45px 0px 10px 0px; position: relative; z-index: 3; display:inline-block}
-.subtitle { margin-left: 0px; font-size: 20px; position: relative; top:auto; margin-top:-70px; font-weight: bold; letter-spacing: 3px;}
+.subtitle { margin-left: 0px; font-size: 20px; position: relative; top:auto; margin-top:-70px; font-weight: bold; letter-spacing: 1px;}
 .home-block h1 { font-size: 50px; font-weight: 600; letter-spacing: 3px; margin-left: 0px;  margin-top:0px; position: relative; top:auto; }
 .home-block .home-content { position:relative}
-.home-block .home-content p {padding-right:15px; padding-left:15px; margin-top: 120px;}
+.home-block .home-content p {padding-right:15px; padding-left:15px; margin-top: 135px;}
 .home-block input[type="search"] {width: 80%; border: none; font-size: 13px; height: 30px; display:inline-block}
 .home-block .home-content { margin-left:0px; margin-top:15px}
 .content-panel {min-width:auto}
