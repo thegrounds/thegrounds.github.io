@@ -1020,7 +1020,7 @@ article {
 .subtitle { margin-left: 0px; font-size: 20px; position: relative; top:auto; margin-top:-70px; font-weight: bold; letter-spacing: 3px;}
 .home-block h1 { font-size: 50px; font-weight: 600; letter-spacing: 3px; margin-left: 0px;  margin-top:0px; position: relative; top:auto; }
 .home-block .home-content { position:relative}
-.home-block .home-content p {padding-right:15px; padding-left:15px}
+.home-block .home-content p {padding-right:15px; padding-left:15px; margin-top: 120px;}
 .home-block input[type="search"] {width: 80%; border: none; font-size: 13px; height: 30px; display:inline-block}
 .home-block .home-content { margin-left:0px; margin-top:15px}
 .content-panel {min-width:auto}
