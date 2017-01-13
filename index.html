@@ -15,7 +15,7 @@
     <link rel="canonical" href="http://www.thegroundsmobile.com/" />
     <link rel="shortlink" href="http://www.thegroundsmobile.com/" />
     <title>The Grounds | Mobile, AL</title>
-    <meta property="og:image" content="img/fair16logo.png">
+    <meta property="og:image" content="img/fair-logo-16.png">
     <style type="text/css" media="all">
     @import url("css/system.base.css");
     @import url("css/system.menus.css");
@@ -564,7 +564,7 @@
                                         </div>
                                         <div class="content-inner">
                                             <div class="logo-inner">
-                                                <img typeof="foaf:Image" src="img/fair16logo.png" alt="" /> </div>
+                                                <img typeof="foaf:Image" src="img/fair-logo-16.png" alt="" /> </div>
                                         </div>
                                     </div>
                                     <div class="block-buttons">
@@ -575,7 +575,52 @@
                                     </div>
                                 </div>
                                 <div class="col-middle">
-                                    <a href="https://tickets.authentigate.ca/shop/GGSF2015/238" target="_blank" class="btn-tickets"><span class="icon-tickets">Purchase TICKETS</span></a>
+                                    <div class="directions-push">
+                                        <script src="js/easeljs-0.7.0.min.js"></script>
+                                        <script src="js/tweenjs-0.5.0.min.js"></script>
+                                        <script src="js/movieclip-0.7.0.min.js"></script>
+                                        <script src="js/preloadjs-0.4.0.min.js"></script>
+                                        <script src="js/footer2.js"></script>
+                                        <script>
+                                        var canvas, stage, exportRoot;
+
+                                        function init() {
+                                            createjs.MotionGuidePlugin.install();
+
+                                            canvas = document.getElementById("canvas");
+                                            images = images || {};
+
+                                            var loader = new createjs.LoadQueue(false);
+                                            loader.addEventListener("fileload", handleFileLoad);
+                                            loader.addEventListener("complete", handleComplete);
+                                            loader.loadManifest(lib.properties.manifest);
+                                        }
+
+                                        function handleFileLoad(evt) {
+                                            if (evt.item.type == "image") {
+                                                images[evt.item.id] = evt.result;
+                                            }
+                                        }
+
+                                        function handleComplete() {
+                                            exportRoot = new lib.footer2();
+
+                                            stage = new createjs.Stage(canvas);
+                                            stage.addChild(exportRoot);
+                                            stage.update();
+
+                                            createjs.Ticker.setFPS(lib.properties.fps);
+                                            createjs.Ticker.addEventListener("tick", stage);
+                                        }
+                                        jQuery(document).ready(function($) {
+                                            init();
+                                        });
+                                        </script>
+                                        </head>
+                                        <div class="footer-canvas">
+                                            <canvas id="canvas" width="782" height="151"></canvas>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-right">
                                     <div class="content interactive-video-container" data-goto="the-grounds">
@@ -598,7 +643,7 @@
                                                 <img class="block-content" typeof="foaf:Image" src="http://www.okstatefair.com/sites/all/themes/okstatefair/images/tmp/bg-block-text-3.png" alt="" />
                                             </a>
                                             <a href="content/thegrounds-map.html" class="btn btn-right" title="">
-                                                <img class="block-content" typeof="foaf:Image" src="http://www.okstatefair.com/sites/all/themes/okstatefair/images/tmp/bg-block-text-4.png" alt="" />
+                                                <img class="block-content" typeof="foaf:Image" src="img/getting-around.png" alt="" />
                                             </a>
                                         </div>
                                     </div>
@@ -643,7 +688,7 @@
                                         <div class="drop-down-menu">
                                             <div class="top-block"></div>
                                             <ul class="list">
-                                                <li class="item odd first"><a href="about.html" class="text">About</a></li>
+                                                <li class="item odd first"><a href="content/about.html" class="text">About</a></li>
                                                 <li class="item even "><a href="content/ticket-office.html" class="text">Ticket Office</a></li>
                                                 <li class="item odd last"><a href="content/rv-park.html" class="text">RV Park</a></li>
                                             </ul>
@@ -673,7 +718,7 @@
                                 <div class="block-slider-slides" data-role="block_slider_slides">
                                     <ul>
                                         <li>
-                                            <a href="http://www.okstatefair.com/content/hall-fame-gun-knife-show-2"><img typeof="foaf:Image" src="http://www.okstatefair.com/sites/default/files/17_HALL%20OF_FAME_GUN%26KNIFE_SHOW.jpg" width="980" height="354" alt="" title="http://www.okstatefair.com/content/hall-fame-gun-knife-show-2" /></a>
+                                            <a href="index.html#greater-gulf-state-fair"><img typeof="foaf:Image" src="img/fair-slide.png" width="980" height="354" alt="" title="2017-ggsf" /></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -685,7 +730,7 @@
                             </div>
                             <div class="block-buttons-full">
                                 <div class="field-collection-view clearfix view-mode-full">
-                                    <a href="content/thegrounds-map.html" class="btn"><img typeof="foaf:Image" src="http://www.okstatefair.com/sites/default/files/bg-block-4.jpg" alt="" /></a>
+                                    <a href="content/thegrounds-map.html" class="btn" style="background-size:cover"><img typeof="foaf:Image" src="img/getting-around.png" alt="" /></a>
                                 </div>
                                 <div class="field-collection-view clearfix view-mode-full">
                                     <a href="content/calendar-tg.html" class="btn"><img typeof="foaf:Image" src="http://www.okstatefair.com/sites/default/files/bg-block-3.jpg" alt="" /></a>

@@ -3353,6 +3353,34 @@ body.node-type-the-grounds-event .body .sign-up-to-sell {
   line-height: 14px;
   padding: 100px 0 40px 0;
 }
+
+.directions-push{
+
+}
+
+.footer-canvas {
+    width: 782px;
+    position: absolute;
+    /* left: 50%; */
+    margin-left: -782px;
+    bottom: 206px;
+    overflow: hidden;
+}
+
+
+.footer-canvas canvas{
+  margin: 0;
+padding: 0;
+margin-bottom: -50px;
+z-index:0;
+}
+
+
+@media(max-width:625px){
+  .footer-canvas{
+    padding-left:70px;
+  }
+}
 .page-type-3 .body .body-inner .block-buttons-full,
 .page-type-5 .body .body-inner .block-buttons-full,
 .page-type-6 .body .body-inner .block-buttons-full {

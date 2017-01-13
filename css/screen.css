@@ -3043,7 +3043,7 @@
 .btn-full-right-1 .inner,
 .btn-full-right-2 .inner {
   position: absolute;
-  top: 50%;
+  top: 60%;
   right: 12px;
   width: 36px;
   height: 235px;
@@ -3074,11 +3074,13 @@
   }
 }
 .btn-full-right-1 .inner {
-  height: 235px;
-  background: transparent url('../img/sprite-scc5330cb55.png') 0 -6011px no-repeat;
+  height: 25px;
+  width: 40px;
+  background: transparent url('../img/white-arrow-right.png') no-repeat;
+  background-size: cover;
 }
 .btn-full-right-1 .inner .arrow {
-  background: transparent url('../img/sprite-scc5330cb55.png') 0 -198px no-repeat;
+  /*background: transparent url('../img/white-arrow-right.png') 0 -198px no-repeat;*/
 }
 
 .btn-full-right-2 {
@@ -3086,12 +3088,13 @@
   background: #507596 url('../img/bg-blue-repeat.png') repeat;
 }
 .btn-full-right-2 .inner {
-  height: 340px;
-  width: 35px;
-  background: transparent url('../img/sprite-scc5330cb55.png') 0 -4806px no-repeat;
+  height: 25px;
+  width: 40px;
+  background: transparent url('../img/white-arrow-left.png') no-repeat;
+  background-size: cover;
 }
 .btn-full-right-2 .inner .arrow {
-  background: transparent url('../img/sprite-scc5330cb55.png') 0 -43px no-repeat;
+  /*background: transparent url('../img/white-arrow-right.png') 0 -43px no-repeat;*/
 }
 
 .table .btn-details {
