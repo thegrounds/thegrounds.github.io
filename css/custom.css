@@ -157,7 +157,7 @@ a.btn-my-agenda {
 }
 .calendar-calendar table.mini td.has-events a
 .calendar-calendar tr td.today{
-  background-image: url("../images/bg/bg-page-fill-1.png");
+  background-image: url("../img/bg-page-fill-1.png");
 }
 .ajax-progress .throbber {
   background: transparent url('../images/ajax_loader_blue.gif') no-repeat;
@@ -471,7 +471,7 @@ body #admin-menu {
 }
 /* End of Construction Updates Page */
 .change-node-date {
-  background: #FAEDD4;
+  background: transparent;
   color: #4a4740;
   clear: right;
   margin: 0 -52px;

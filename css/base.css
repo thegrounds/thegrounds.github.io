@@ -950,8 +950,10 @@ body #fancybox-close {
 }
 .navigation .menu {
   width: 1021px;
-  height: 88px;
-  background: transparent url('../img/sprite-scc5330cb55.png') 0 -854px no-repeat;
+  height: 63px;
+  background: transparent url('http://thegroundsmobile.com/wp-content/themes/the-grounds/images/bg-lightGray-repeat.png') repeat;
+  border-radius: 5px;
+
 }
 .page-type-foodfinder .navigation .menu {
   height: 50px;
@@ -988,7 +990,7 @@ body #fancybox-close {
   display: none;
   margin-top: -19px;
   padding-top: 10px;
-  background: url("../images/bg/bg-page-fill-4.png") repeat #F3A409;
+  background: url("../img/bg-page-fill-4.png") repeat;
   z-index: 3;
   min-width: 100%;
   -moz-box-shadow: 0 10px 20px -5px #5F5F5F;
@@ -1109,47 +1111,56 @@ body #fancybox-close {
   cursor: pointer;
   text-decoration: underline;
 }
-.navigation .block-left {
+.block-left {
   position: absolute;
   z-index: 1;
-  top: -10px;
-  left: 40px;
-  width: 362px;
-  height: 131px;
-  background: transparent url('../img/sprite-scc5330cb55.png') 0 -1002px no-repeat;
+  top: 18px;
+  left: 200px;
+  width: 600px;
+  height: 80px;
 }
-.navigation .block-left .block-inner {
-  font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+.block-left .block-inner {
+  font-family: "thirsty_script_lightregular";
   font-weight: bold;
   font-size: 20px;
-  color: #f6bd09;
+  color: #ffffff;
   text-align: center;
-  letter-spacing: 6px;
-  margin-top: 29px;
-  margin-left: -52px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-right: 20px;
   cursor: default;
 }
-.navigation .block-right {
+.block-left .block-inner h1{
+  font-family: "madfontregular";
+  color: #c30732;
+  font-weight: bold;
+  font-size: 29px;
+}
+.block-right {
   position: absolute;
   z-index: 1;
-  top: -10px;
-  right: 6px;
-  width: 362px;
-  height: 131px;
-  background: transparent url('../img/sprite-scc5330cb55.png') 0 -1138px no-repeat;
+  top: 10px;
+  left: 300px;
+  width: 375px;
+  height: 80px;
 }
-.navigation .block-right .block-inner {
-  font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+.block-right .block-inner {
+  font-family: "thirsty_script_lightregular";
   font-weight: bold;
-  font-size: 20px;
-  color: #567999;
+  font-size: 40px;
+  color: #ffffff;
   text-align: center;
   letter-spacing: 1px;
   margin-top: 29px;
   margin-right: 20px;
   cursor: default;
 }
-
+.block-right .block-inner h1{
+  font-family: "thirsty_script_lightregular";
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 29px;
+}
 .sidebar-left {
   width: 240px;
   -moz-border-radius: 6px 6px 0 0;
@@ -1159,9 +1170,10 @@ body #fancybox-close {
   -webkit-box-shadow: 0 0 30px 2px #2b2b2b;
   box-shadow: 0 0 30px 2px #2b2b2b;
   float: left;
-  margin: 0 50px 58px 0;
+  margin: 0px 50px 58px 50px;
   position: relative;
   z-index: 11;
+  padding-bottom: 100px;
 }
 
 .title-sidebar {
@@ -2248,7 +2260,7 @@ body.node-type-the-grounds-event .body .sign-up-to-sell {
 .page-type-4 .header .logotype .type h2 {
   font-size: 25px;
   line-height: 25px;
-  font-family: "thirsty_script_lightregular";
+  font-family: "madfontregular";
 }
 .page-type-promo .header .top-buttons,
 .page-type-1 .header .top-buttons,
@@ -2274,7 +2286,11 @@ body.node-type-the-grounds-event .body .sign-up-to-sell {
 .page-type-4 .navigation.without-schedule .menu .item-3.active .menu-item-text,
 .page-type-4 .navigation.without-schedule .menu .item-3:hover .menu-item-text,
 .page-type-4 .navigation.without-schedule .menu .item-3.opened .menu-item-text {
-  background: transparent url("../img/bg-menu-active.png") -730px 0px no-repeat;
+  background: transparent url("../img/bg-blue-repeat.png") repeat;
+  border-radius: 5px;
+  width: 175px;
+  height: 40px;
+  margin-top: 4px;
 }
 .page-type-promo .navigation.without-schedule .menu .item-2,
 .page-type-1 .navigation.without-schedule .menu .item-2,
@@ -2288,7 +2304,11 @@ body.node-type-the-grounds-event .body .sign-up-to-sell {
 .page-type-4 .navigation.without-schedule .menu .item-2.active .menu-item-text,
 .page-type-4 .navigation.without-schedule .menu .item-2:hover .menu-item-text,
 .page-type-4 .navigation.without-schedule .menu .item-2.opened .menu-item-text {
-  background: transparent url("../img/bg-menu-active.png") -620px 0px no-repeat;
+  background: transparent url("../img/bg-blue-repeat.png") repeat;
+  border-radius: 5px;
+  width: 175px;
+  height: 40px;
+  margin-top: 4px;
 }
 .page-type-promo .navigation.without-schedule .menu .item-1,
 .page-type-1 .navigation.without-schedule .menu .item-1,
@@ -2307,15 +2327,13 @@ body.node-type-the-grounds-event .body .sign-up-to-sell {
 .page-type-promo .navigation .menu .item-3,
 .page-type-1 .navigation .menu .item-3,
 .page-type-4 .navigation .menu .item-3 {
-  right: 0;
+  left: 88px;
 }
-.page-type-promo .navigation .menu .item-3 .menu-item-text,
-.page-type-1 .navigation .menu .item-3 .menu-item-text,
-.page-type-4 .navigation .menu .item-3 .menu-item-text {
-  font-family: "thirsty_script_lightregular";
-  font-size: 23px;
-  width: 182px;
-  padding-top: 14px;
+.page-type-promo .navigation .menu .item-3 .menu-item-text, .page-type-1 .navigation .menu .item-3 .menu-item-text, .page-type-4 .navigation .menu .item-3 .menu-item-text {
+  font-family: "madfontregular";
+  font-size: 20px;
+  width: 204px;
+  padding-top: 24px;
   display: block;
 }
 .page-type-promo .navigation .menu .item-3.active .menu-item-text, .page-type-promo .navigation .menu .item-3:hover .menu-item-text, .page-type-promo .navigation .menu .item-3.opened .menu-item-text,
@@ -2325,7 +2343,11 @@ body.node-type-the-grounds-event .body .sign-up-to-sell {
 .page-type-4 .navigation .menu .item-3.active .menu-item-text,
 .page-type-4 .navigation .menu .item-3:hover .menu-item-text,
 .page-type-4 .navigation .menu .item-3.opened .menu-item-text {
-  background: transparent url("../img/bg-menu-active.png") -839px 0px no-repeat;
+  background: transparent url(../img/bg-blue-repeat.png) repeat;
+  border-radius: 5px;
+  width: 203px;
+  height: 31px;
+  margin-top: 4px;
 }
 .page-type-promo .navigation .menu .item-3 .drop-down-menu,
 .page-type-1 .navigation .menu .item-3 .drop-down-menu,
@@ -2335,7 +2357,7 @@ body.node-type-the-grounds-event .body .sign-up-to-sell {
 .page-type-promo .navigation .menu .item-2,
 .page-type-1 .navigation .menu .item-2,
 .page-type-4 .navigation .menu .item-2 {
-  right: 182px;
+  left: 841px;
 }
 .page-type-promo .navigation .menu .item-2 .menu-item-text,
 .page-type-1 .navigation .menu .item-2 .menu-item-text,
@@ -2344,7 +2366,7 @@ body.node-type-the-grounds-event .body .sign-up-to-sell {
   font-size: 20px;
   letter-spacing: 1px;
   width: 115px;
-  padding-top: 20px;
+  padding-top: 24px;
   line-height: 20px;
 }
 .page-type-promo .navigation .menu .item-2.active .menu-item-text, .page-type-promo .navigation .menu .item-2:hover .menu-item-text, .page-type-promo .navigation .menu .item-2.opened .menu-item-text,
@@ -2354,20 +2376,24 @@ body.node-type-the-grounds-event .body .sign-up-to-sell {
 .page-type-4 .navigation .menu .item-2.active .menu-item-text,
 .page-type-4 .navigation .menu .item-2:hover .menu-item-text,
 .page-type-4 .navigation .menu .item-2.opened .menu-item-text {
-  background: transparent url("../img/bg-menu-active.png") -730px 0px no-repeat;
+    background: transparent url("../img/bg-blue-repeat.png") repeat;
+  border-radius: 5px;
+  width: 108px;
+  height: 31px;
+  margin-top: 4px;
 }
 .page-type-promo .navigation .menu .item-1,
 .page-type-1 .navigation .menu .item-1,
 .page-type-4 .navigation .menu .item-1 {
-  right: 297px;
+  left: 651px;
 }
 .page-type-promo .navigation .menu .item-1 .menu-item-text,
 .page-type-1 .navigation .menu .item-1 .menu-item-text,
 .page-type-4 .navigation .menu .item-1 .menu-item-text {
-  font-family: "thirsty_script_lightregular";
-  font-size: 23px;
+  font-family: "madfontregular";
+  font-size: 20px;
   width: 122px;
-  padding-top: 14px;
+  padding-top: 24px;
 }
 .page-type-promo .navigation .menu .item-1.active .menu-item-text, .page-type-promo .navigation .menu .item-1:hover .menu-item-text, .page-type-promo .navigation .menu .item-1.opened .menu-item-text,
 .page-type-1 .navigation .menu .item-1.active .menu-item-text,
@@ -2376,21 +2402,25 @@ body.node-type-the-grounds-event .body .sign-up-to-sell {
 .page-type-4 .navigation .menu .item-1.active .menu-item-text,
 .page-type-4 .navigation .menu .item-1:hover .menu-item-text,
 .page-type-4 .navigation .menu .item-1.opened .menu-item-text {
-  background: transparent url("../img/bg-menu-active.png") -620px 0px no-repeat;
+  background: transparent url("../img/bg-blue-repeat.png") repeat;
+  border-radius: 5px;
+  width: 140px;
+  height: 32px;
+  margin-top: 4px;
 }
 .page-type-promo .navigation .menu .item-0,
 .page-type-1 .navigation .menu .item-0,
 .page-type-4 .navigation .menu .item-0 {
-  right: 419px;
+  left: 368px;
 }
 .page-type-promo .navigation .menu .item-0 .menu-item-text,
 .page-type-1 .navigation .menu .item-0 .menu-item-text,
 .page-type-4 .navigation .menu .item-0 .menu-item-text {
   font-family: "madfontregular";
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 1px;
   width: 199px;
-  padding-top: 24px;
+  padding-top: 26px;
   line-height: 16px;
 }
 .page-type-promo .navigation .menu .item-0.active .menu-item-text, .page-type-promo .navigation .menu .item-0:hover .menu-item-text, .page-type-promo .navigation .menu .item-0.opened .menu-item-text,
@@ -2400,7 +2430,11 @@ body.node-type-the-grounds-event .body .sign-up-to-sell {
 .page-type-4 .navigation .menu .item-0.active .menu-item-text,
 .page-type-4 .navigation .menu .item-0:hover .menu-item-text,
 .page-type-4 .navigation .menu .item-0.opened .menu-item-text {
-  background: transparent url("../img/bg-menu-active.png") -410px 0px no-repeat;
+  background: transparent url(../img/bg-blue-repeat.png) repeat;
+  border-radius: 5px;
+  width: 202px;
+  height: 32px;
+  margin-top: 4px;
 }
 .page-type-promo .body .body-inner,
 .page-type-1 .body .body-inner,
@@ -2410,7 +2444,7 @@ body.node-type-the-grounds-event .body .sign-up-to-sell {
 .page-type-promo .body .body-inner .body-content,
 .page-type-1 .body .body-inner .body-content,
 .page-type-4 .body .body-inner .body-content {
-  padding: 120px 52px 0px 52px;
+  padding: 120px 52px 0px 0px;
 }
 
 .page-type-1 .body,
@@ -2556,7 +2590,7 @@ body.node-type-the-grounds-event .body .sign-up-to-sell {
   height: 652px;
   z-index: 0;
   left: 50%;
-  margin: 0 auto -652px;
+  margin: 0 auto -690px;
   -moz-box-shadow: 0 -25px 50px 1px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0 -25px 50px 1px rgba(0, 0, 0, 0.5);
   box-shadow: 0 -25px 50px 1px rgba(0, 0, 0, 0.5);
@@ -2737,7 +2771,7 @@ body.node-type-the-grounds-event .body .sign-up-to-sell {
   right: 50%;
 }
 .page-type-2 .columns-home .col-left .content .content-inner {
-  background: transparent url("../images/bg/video-overlay-1.png") repeat;
+  background: transparent url("../img/video-overlay-1.png") repeat;
 }
 .page-type-2 .columns-home .col-left .content .content-inner .logo {
   width: 44%;
@@ -2770,7 +2804,7 @@ body.node-type-the-grounds-event .body .sign-up-to-sell {
   background: transparent url('../img/sprite-scc5330cb55.png') 0 -43px no-repeat;
 }
 .page-type-2 .columns-home .col-left .content .overlay {
-  background: transparent url("../images/bg/video-overlay-1.png") repeat;
+  background: transparent url("../img/video-overlay-1.png") repeat;
 }
 .page-type-2 .columns-home .col-left .block-buttons {
   background-color: #df9905;
@@ -2799,7 +2833,7 @@ body.node-type-the-grounds-event .body .sign-up-to-sell {
   left: 50%;
 }
 .page-type-2 .columns-home .col-right .content .content-inner {
-  background: transparent url("../images/bg/video-overlay-2.png") repeat;
+  background: transparent url("../img/video-overlay-2.png") repeat;
 }
 .page-type-2 .columns-home .col-right .block-buttons {
   background-color: #4f7994;
@@ -3075,16 +3109,16 @@ body.node-type-the-grounds-event .body .sign-up-to-sell {
 .page-type-3 .navigation .menu .item-3,
 .page-type-5 .navigation .menu .item-3,
 .page-type-6 .navigation .menu .item-3 {
-  left: 425px;
+  left: 705px;
 }
 .page-type-3 .navigation .menu .item-3 .menu-item-text,
 .page-type-5 .navigation .menu .item-3 .menu-item-text,
 .page-type-6 .navigation .menu .item-3 .menu-item-text {
-  font-family: "madfontregular";
-  font-size: 16px;
+  font-family: "thirsty_script_lightregular";
+  font-size: 30px;
   letter-spacing: 1px;
   width: 199px;
-  padding-top: 24px;
+  padding-top: 23px;
   line-height: 16px;
 }
 .page-type-3 .navigation .menu .item-3.active .menu-item-text, .page-type-3 .navigation .menu .item-3:hover .menu-item-text, .page-type-3 .navigation .menu .item-3.opened .menu-item-text,
@@ -3094,20 +3128,24 @@ body.node-type-the-grounds-event .body .sign-up-to-sell {
 .page-type-6 .navigation .menu .item-3.active .menu-item-text,
 .page-type-6 .navigation .menu .item-3:hover .menu-item-text,
 .page-type-6 .navigation .menu .item-3.opened .menu-item-text {
-  background: transparent url("../img/bg-menu-active.png") -425px 0px no-repeat;
+  background: transparent url("../img/bg-blue-repeat.png") repeat;
+  border-radius: 5px;
+  width: 175px;
+  height: 32px;
+  margin-top: 4px;
 }
 .page-type-3 .navigation .menu .item-2,
 .page-type-5 .navigation .menu .item-2,
 .page-type-6 .navigation .menu .item-2 {
-  left: 300px;
+  left: 529px;
 }
 .page-type-3 .navigation .menu .item-2 .menu-item-text,
 .page-type-5 .navigation .menu .item-2 .menu-item-text,
 .page-type-6 .navigation .menu .item-2 .menu-item-text {
   font-family: "thirsty_script_lightregular";
-  font-size: 23px;
+  font-size: 30px;
   width: 125px;
-  padding-top: 15px;
+  padding-top: 11px;
   display: block;
 }
 .page-type-3 .navigation .menu .item-2.active .menu-item-text, .page-type-3 .navigation .menu .item-2:hover .menu-item-text, .page-type-3 .navigation .menu .item-2.opened .menu-item-text,
@@ -3117,18 +3155,22 @@ body.node-type-the-grounds-event .body .sign-up-to-sell {
 .page-type-6 .navigation .menu .item-2.active .menu-item-text,
 .page-type-6 .navigation .menu .item-2:hover .menu-item-text,
 .page-type-6 .navigation .menu .item-2.opened .menu-item-text {
-  background: transparent url("../img/bg-menu-active.png") -300px 0px no-repeat;
+    background: transparent url("../img/bg-blue-repeat.png") repeat;
+  border-radius: 5px;
+  width: 120px;
+  height: 43px;
+  margin-top: 4px;
 }
 .page-type-3 .navigation .menu .item-1,
 .page-type-5 .navigation .menu .item-1,
 .page-type-6 .navigation .menu .item-1 {
-  left: 190px;
+  left: 361px;
 }
 .page-type-3 .navigation .menu .item-1 .menu-item-text,
 .page-type-5 .navigation .menu .item-1 .menu-item-text,
 .page-type-6 .navigation .menu .item-1 .menu-item-text {
-  font-family: "madfontregular";
-  font-size: 20px;
+  font-family: "thirsty_script_lightregular";
+  font-size: 30px;
   line-height: 20px;
   letter-spacing: 1px;
   width: 110px;
@@ -3141,21 +3183,25 @@ body.node-type-the-grounds-event .body .sign-up-to-sell {
 .page-type-6 .navigation .menu .item-1.active .menu-item-text,
 .page-type-6 .navigation .menu .item-1:hover .menu-item-text,
 .page-type-6 .navigation .menu .item-1.opened .menu-item-text {
-  background: transparent url("../img/bg-menu-active.png") -190px 0px no-repeat;
+    background: transparent url("../img/bg-blue-repeat.png") repeat;
+  border-radius: 5px;
+  width: 102px;
+  height: 32px;
+  margin-top: 4px;
 }
 .page-type-3 .navigation .menu .item-0,
 .page-type-5 .navigation .menu .item-0,
 .page-type-6 .navigation .menu .item-0 {
-  left: 0px;
+  left: 116px;
 }
 .page-type-3 .navigation .menu .item-0 .menu-item-text,
 .page-type-5 .navigation .menu .item-0 .menu-item-text,
 .page-type-6 .navigation .menu .item-0 .menu-item-text {
   font-family: "thirsty_script_lightregular";
-  font-size: 22px;
+  font-size: 30px;
   letter-spacing: 1px;
   width: 190px;
-  padding-top: 19px;
+  padding-top: 20px;
   line-height: 22px;
 }
 .page-type-3 .navigation .menu .item-0.active .menu-item-text, .page-type-3 .navigation .menu .item-0:hover .menu-item-text, .page-type-3 .navigation .menu .item-0.opened .menu-item-text,
@@ -3165,7 +3211,11 @@ body.node-type-the-grounds-event .body .sign-up-to-sell {
 .page-type-6 .navigation .menu .item-0.active .menu-item-text,
 .page-type-6 .navigation .menu .item-0:hover .menu-item-text,
 .page-type-6 .navigation .menu .item-0.opened .menu-item-text {
-  background: transparent url("../img/bg-menu-active.png") 0px 0px no-repeat;
+  background: transparent url("../img/bg-blue-repeat.png") repeat;
+  border-radius: 5px;
+  width: 180px;
+  height: 32px;
+  margin-top: 4px;
 }
 .page-type-3 .body,
 .page-type-5 .body,

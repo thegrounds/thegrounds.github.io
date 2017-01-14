@@ -236,8 +236,8 @@
 .page-type-v .content-wrapper.even {
   width: 100%;
   background: #6d6759 url("../images/bg/bg-dark-gray.png") 0 0 repeat;
-  margin: 0 -52px;
-  padding: 18px 52px;
+  margin: 0 0;
+  padding: 18px 0 18px 52px;
   color: #ffe9ba;
 }
 .page-type-v .content-wrapper.even .image-group-horizontal {
@@ -584,6 +584,7 @@
 }
 .page-type-map .wrapper-map .map img {
   vertical-align: top;
+  margin-top: 77px;
 }
 
 .page-type-6.page-type-map .wrapper-map .btn {
@@ -662,7 +663,7 @@
   float: none;
 }
 .page-type-7 .content-wrapper {
-  padding: 30px 0;
+  padding: 30px 0 20px 52px;
 }
 .page-type-7 .content-wrapper.hidden {
   overflow: hidden;
@@ -710,8 +711,8 @@
   float: none;
 }
 .page-type-7 .title-sidebar h3 {
-  font-family: "thirsty_script_lightregular";
-  font-size: 31px;
+  font-family: "madfontregular";
+  font-size: 20px;
 }
 .page-type-7 .navigation-sidebar .menu > li > a:hover {
   color: #fca91e;
@@ -800,10 +801,10 @@
 }
 
 .page-type-promo .body-inner {
-  background: #2b2a27 url("../images/bg/bg_promo_body.jpg") 0 0 repeat;
+  background: #2b2a27 url("../img/bg_promo_body.jpg") 0 0 repeat;
 }
 .page-type-promo .body {
-  background: #f4b20b url("../images/bg/bg-page-fill-1.png") repeat;
+  background: #f4b20b url("../img/bg-page-fill-1.png") repeat;
 }
 .page-type-promo .images-promo {
   display: inline-block;
@@ -1816,7 +1817,7 @@
   margin: 0 -52px;
   padding-left: 52px;
   padding-right: 52px;
-  background: url('../images/bg/bg-page-fill-5.jpg?1441227958') repeat;
+  background: url('../img/bg-page-fill-5.jpg?1441227958') repeat;
 }
 .page-type-sponsorship .content-wrapper.image-right .image {
   float: right;
@@ -2886,7 +2887,7 @@
   color: #e9dac8;
 }
 .calendar-cell .cell-calendar-body .days td.selected {
-  background-image: url("../images/bg/bg-page-fill-1.png");
+  background-image: url("../img/bg-page-fill-1.png");
 }
 .calendar-cell .cell-calendar-body .days td:first-child {
   border-left-width: 0;
@@ -2976,7 +2977,7 @@
 }
 .calendar-cell .cell-calendar-footer .categories-selector .categories-list {
   display: none;
-  background: #4F7994 url("../images/bg/bg-page-fill-3.png") repeat;
+  background: #4F7994 url("../img/bg-page-fill-3.png") repeat;
   padding: 10px 0;
   position: relative;
 }
@@ -3066,7 +3067,6 @@
 
 .btn-full-right-1 {
   right: 0;
-  background: #9A2535 url('../img/bg-dirt-pattern.png') repeat;
 }
 @media only screen and (max-height: 818px) {
   .btn-full-right-1 {
@@ -3085,7 +3085,6 @@
 
 .btn-full-right-2 {
   left: 0;
-  background: #507596 url('../img/bg-blue-repeat.png') repeat;
 }
 .btn-full-right-2 .inner {
   height: 25px;
@@ -3507,8 +3506,8 @@
   position: relative;
   z-index: 17;
   display: block;
-  background-color: #000000;
-  height: 62px;
+  background: url("http://thegroundsmobile.com/wp-content/themes/the-grounds/images/bg-lightGray-repeat.png") repeat;
+  height: 70px;
   clear: both;
 }
 .footer-type-2 .inner {
