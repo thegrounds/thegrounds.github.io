@@ -1,7 +1,7 @@
 /* End of footer menu */
 /* Basic settings */
 .field-collection-view {
-  padding: 0px;
+  padding: 0 90px 0 90px;
   margin: 0px;
   border: none;
 }
@@ -31,7 +31,7 @@ z-index: 101;
   width: 265px;
   height: 195px;
 }
-.footer-type-2 .footer-navigation .drop-down-menu {
+.footer-navigation .drop-down-menu {
   width:152px;
 }
 /* End of basic settings */
@@ -238,7 +238,7 @@ a.btn-my-agenda {
   color: inherit;
   text-decoration: underline;
 }
-.footer-type-2 {
+{
   z-index: 0;
 }
 .page-type-custom-xtremebulls .title-promo {
@@ -510,7 +510,7 @@ body .page-type-v .content-wrapper.content-wrapper-last {
   min-height: 340px;
 }
 .page-type-v .node-pageants .content-wrapper.field-collection-item-field-content-locations.odd:first-child {
-  background: #6d6759 url("../images/bg/bg-dark-gray.png") 0 0 repeat;
+  /*background: #6d6759 url("../images/bg/bg-dark-gray.png") 0 0 repeat;*/
   margin: 0 -52px;
   padding: 18px 52px;
   color: #FFE9BA;
@@ -706,7 +706,7 @@ body .page-type-foodfinder .bottom-filter .filter:hover label.coming-soon {
 }
 
 #page-wrapper .footer-navigation .menu .menu-item,
-.page-type-4 .footer-type-2 .footer-navigation .menu .menu-item {
+.page-type-4 .footer-navigation .menu .menu-item {
   margin-right: 20px;
 }
 .releases-list .contextual-links-trigger {
@@ -818,10 +818,10 @@ margin-bottom: 0px;
 .node-type-cu .odd .col-item-second img {
     margin-bottom: 10px;
 }
-.page-okstatefair-mobile-menu .page-type-sitemap .sitemap-col ul {
+.page-thegrounds-mobile-menu .page-type-sitemap .sitemap-col ul {
     margin-left: 0;
 }
-.page-okstatefair-mobile-menu .page-type-sitemap .sitemap-col > ul > li > a + ul{
+.page-thegrounds-mobile-menu .page-type-sitemap .sitemap-col > ul > li > a + ul{
     margin-left: 20px;
 }
 .page-node-1541 .page-type-custom-concert .body-inner,
@@ -1167,19 +1167,19 @@ body.page-node-5534 div.media-youtube-video.media-youtube-1 {
   text-transform: uppercase;
 }
 
-.footer-type-2 > .logo {
+> .logo {
   width: 962px;
   margin: 0 auto;
   text-align: right;
 }
 
-.footer-type-2 > .logo a {
+> .logo a {
   display: inline-block;
   vertical-align: middle;
   margin-right: 15px;
 }
 
-.footer-type-2 > .logo a:last-child {
+> .logo a:last-child {
   margin-right: 0;
 }
 

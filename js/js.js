@@ -61,7 +61,7 @@
     if (typeof Drupal == 'undefined') {
       time = (new Date()).getTime() + 10*24*60*60*1000;
     } else {
-      time = Drupal.settings.okstatefair.fair_open; //'2016/03/12';
+      time = Drupal.settings.thegrounds.fair_open; //'2016/03/12';
     }
 
     $('#countdown .countdown-inner').countdown(time, function(event) {

@@ -24,7 +24,7 @@
   overflow: visible;
 }
 .page-type-v .content-wrapper {
-  padding: 18px 0;
+  padding: 6px 91px 0 372px;
   position: relative;
 }
 .page-type-v .content-wrapper.with-image-group .content-text {
@@ -92,12 +92,12 @@
   margin-right: 0;
 }
 .page-type-v .content-wrapper h3, .page-type-v .content-wrapper h4 {
-  font-family: "AvenirLT-Black";
+  font-family: "madfontregular";
   margin-bottom: 12px;
 }
 .page-type-v .content-wrapper h3 {
-  font-size: 35px;
-  line-height: 36px;
+  font-size: 25px;
+  line-height: 30px;
 }
 .page-type-v .content-wrapper h3 span {
   font-size: 14px;
@@ -117,7 +117,7 @@
   margin-bottom: 12px;
 }
 .page-type-v .content-wrapper p, .page-type-v .content-wrapper i {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 20px;
   margin-bottom: 12px;
 }
@@ -235,9 +235,9 @@
 }
 .page-type-v .content-wrapper.even {
   width: 100%;
-  background: #6d6759 url("../images/bg/bg-dark-gray.png") 0 0 repeat;
-  margin: 0 0;
-  padding: 18px 0 18px 52px;
+  /*background: #6d6759 url("../images/bg/bg-dark-gray.png") 0 0 repeat;*/
+  margin: 0 0 0 -52px;
+  padding: 18px 52px 18px 52px;
   color: #ffe9ba;
 }
 .page-type-v .content-wrapper.even .image-group-horizontal {
@@ -584,7 +584,8 @@
 }
 .page-type-map .wrapper-map .map img {
   vertical-align: top;
-  margin-top: 77px;
+  margin-top: 0px;
+  padding-left:160px;
 }
 
 .page-type-6.page-type-map .wrapper-map .btn {
@@ -663,7 +664,7 @@
   float: none;
 }
 .page-type-7 .content-wrapper {
-  padding: 30px 0 20px 52px;
+  padding: 30px 0 20px 0;
 }
 .page-type-7 .content-wrapper.hidden {
   overflow: hidden;
@@ -1883,7 +1884,7 @@
   text-decoration: underline;
 }
 .page-type-photos .content-wrapper.even {
-  background: #6d6759 url("../images/bg/bg-dark-gray.png") 0 0 repeat;
+  /*background: #6d6759 url("../images/bg/bg-dark-gray.png") 0 0 repeat;*/
   margin: 0 -52px;
   padding: 35px 52px;
   color: #ffe9ba;
@@ -2913,7 +2914,7 @@
   display: none;
 }
 .calendar-cell .cell-calendar-footer .month-slider {
-  background: #DF9905 url('../img/sprite-v-s84570a2fcf.png') 0 -26px repeat-x;
+  background: #47D2B1 url('../img/sprite-v-s84570a2fcf.png') 0 -26px repeat-x;
   height: 28px;
   position: relative;
 }
@@ -3074,7 +3075,7 @@
   }
 }
 .btn-full-right-1 .inner {
-  height: 25px;
+  height: 40px;
   width: 40px;
   background: transparent url('../img/white-arrow-right.png') no-repeat;
   background-size: cover;
@@ -3087,7 +3088,7 @@
   left: 0;
 }
 .btn-full-right-2 .inner {
-  height: 25px;
+  height: 40px;
   width: 40px;
   background: transparent url('../img/white-arrow-left.png') no-repeat;
   background-size: cover;
@@ -3404,8 +3405,8 @@
   background-color: #d2d2d2;
   position: relative;
   display: block;
-  width: 962px;
-  height: 347px;
+  width: 1280px;
+  height: 453px;
   overflow: hidden;
 }
 .block-slider .block-slider-slides {
@@ -3423,7 +3424,7 @@
   top: 0;
   left: 0;
   display: none;
-  width: 962px;
+  width: 1280px;
 }
 .block-slider .block-slider-slides ul li .block-slider-slide img {
   position: relative;
@@ -3502,7 +3503,7 @@
   height: 62px;
 }
 
-.footer-type-2 {
+{
   position: relative;
   z-index: 17;
   display: block;
@@ -3510,12 +3511,12 @@
   height: 70px;
   clear: both;
 }
-.footer-type-2 .inner {
+.inner {
   display: block;
   width: 962px;
   margin: 0 auto;
 }
-.footer-type-2 .inner:after {
+.inner:after {
   content: " ";
   display: block;
   height: 0;
@@ -3523,44 +3524,44 @@
   overflow: hidden;
   visibility: hidden;
 }
-.footer-type-2 .logo {
+.logo {
   text-align: center;
   padding: 0 0 15px;
 }
-.footer-type-2 .icons {
+.icons {
   float: left;
 }
-.footer-type-2 .icons ul {
+.icons ul {
   margin: 0;
   clear: both;
   overflow: hidden;
 }
-.footer-type-2 .icons a {
+.icons a {
   display: block;
 }
-.footer-type-2 .icons img {
+.icons img {
   vertical-align: top;
 }
-.footer-type-2 .icons li {
+.icons li {
   display: block;
   float: left;
   margin: 0 200px 0 0;
 }
-.footer-type-2 .icons li.last, .footer-type-2 .icons li:last-child {
+.icons li.last, .icons li:last-child {
   margin-right: 0;
 }
-.footer-type-2 .wrapp-logo-footer {
+.wrapp-logo-footer {
   float: left;
 }
-.footer-type-2 .footer-navigation {
+.footer-navigation {
   display: block;
   float: right;
 }
-.footer-type-2 .footer-navigation .menu {
+.footer-navigation .menu {
   margin: 0;
   padding: 0;
 }
-.footer-type-2 .footer-navigation .menu .menu-item {
+.footer-navigation .menu .menu-item {
   margin-right: 20px;
   padding-top: 20px;
   text-align: center;
@@ -3568,13 +3569,13 @@
   display: inline-block;
   vertical-align: top;
 }
-.footer-type-2 .footer-navigation .menu .menu-item.mobile-version .menu-item-text {
+.footer-navigation .menu .menu-item.mobile-version .menu-item-text {
   height: 25px;
   width: 15px;
   background:  url('../img/sprite-scc5330cb55.png') 0 -3530px no-repeat;
   display: block;
 }
-.footer-type-2 .footer-navigation .menu .menu-item .menu-item-text {
+.footer-navigation .menu .menu-item .menu-item-text {
   -moz-transition: color 0.2s ease-in;
   -o-transition: color 0.2s ease-in;
   -webkit-transition: color 0.2s ease-in;
@@ -3588,14 +3589,14 @@
   text-align: center;
   text-transform: uppercase;
 }
-.footer-type-2 .footer-navigation .menu .menu-item .menu-item-text:hover {
+.footer-navigation .menu .menu-item .menu-item-text:hover {
   color: #d1d1d1;
   background-color: transparent !important;
 }
-.footer-type-2 .footer-navigation .menu .menu-item:hover .drop-down-menu {
+.footer-navigation .menu .menu-item:hover .drop-down-menu {
   display: block;
 }
-.footer-type-2 .footer-navigation .menu .menu-item.active:before {
+.footer-navigation .menu .menu-item.active:before {
   content: '';
   border-color: #fff1d6 transparent transparent transparent;
   border-style: solid;
@@ -3607,7 +3608,7 @@
   left: 50%;
   margin-left: -9px;
 }
-.footer-type-2 .footer-navigation .drop-down-menu {
+.footer-navigation .drop-down-menu {
   display: none;
   position: absolute;
   bottom: 55%;
@@ -3622,14 +3623,14 @@
   box-shadow: 0px 0px 8px -2px #000;
   z-index: 1;
 }
-.footer-type-2 .footer-navigation .drop-down-menu .list {
+.footer-navigation .drop-down-menu .list {
   background-color: black;
 }
-.footer-type-2 .footer-navigation .drop-down-menu .list .item {
+.footer-navigation .drop-down-menu .list .item {
   margin: 0;
   padding: 0;
 }
-.footer-type-2 .footer-navigation .drop-down-menu .list .item .text {
+.footer-navigation .drop-down-menu .list .item .text {
   display: block;
   color: #ffffff;
   font-size: 14px;
@@ -3637,16 +3638,16 @@
   text-transform: uppercase;
   font-family: "AvenirLT-Book";
 }
-.footer-type-2 .footer-navigation .drop-down-menu .list .item .text:hover {
+.footer-navigation .drop-down-menu .list .item .text:hover {
   background-color: #5d5d5d;
 }
-.footer-type-2 .footer-navigation .drop-down-menu .bottom-block {
+.footer-navigation .drop-down-menu .bottom-block {
   display: block;
   height: 8px;
   position: relative;
   background-color: #f4a80a;
 }
-.footer-type-2 .footer-navigation .drop-down-menu .bottom-block .bottom-block-arrow {
+.footer-navigation .drop-down-menu .bottom-block .bottom-block-arrow {
   display: block;
   width: 14px;
   height: 7px;
@@ -3658,67 +3659,70 @@
   left: 50%;
   margin-left: -7px;
 }
-.footer-type-2 .social-buttons {
+.social-buttons {
   display: block;
   float: right;
   padding: 22px 0;
+  padding-left: 125px;
+  margin-top: -11px;
+
 }
-.footer-type-2 .social-buttons ul {
+.social-buttons ul {
   margin: 0;
   padding: 0;
   list-style: none;
   clear: both;
   overflow: hidden;
 }
-.footer-type-2 .social-buttons li {
+.social-buttons li {
   display: block;
   float: left;
   margin-right: 17px;
 }
-.footer-type-2 .social-buttons li.last {
+.social-buttons li.last {
   margin-right: 0;
 }
-.footer-type-2 .social-buttons li a {
+.social-buttons li a {
   display: block;
 }
-.footer-type-2 .social-buttons li.facebook a {
+.social-buttons li.facebook a {
   width: 8px;
   height: 16px;
   background: transparent url('../img/sprite-scc5330cb55.png') 0 -5764px no-repeat;
 }
-.footer-type-2 .social-buttons li.facebook a:hover {
+.social-buttons li.facebook a:hover {
   background: transparent url('../img/sprite-scc5330cb55.png') 0 -5785px no-repeat;
 }
-.footer-type-2 .social-buttons li.instagram a {
+.social-buttons li.instagram a {
   width: 16px;
   height: 16px;
   background: transparent url('../img/sprite-scc5330cb55.png') 0 -5953px no-repeat;
 }
-.footer-type-2 .social-buttons li.instagram a:hover {
+.social-buttons li.instagram a:hover {
   background: transparent url('../img/sprite-scc5330cb55.png') 0 -5932px no-repeat;
 }
-.footer-type-2 .social-buttons li.twitter a {
+.social-buttons li.twitter a {
   width: 20px;
   height: 16px;
   background: transparent url('../img/sprite-scc5330cb55.png') 0 -5848px no-repeat;
 }
-.footer-type-2 .social-buttons li.twitter a:hover {
+.social-buttons li.twitter a:hover {
   background: transparent url('../img/sprite-scc5330cb55.png') 0 -5869px no-repeat;
 }
-.footer-type-2 .social-buttons li.pinterest a {
+.social-buttons li.pinterest a {
   width: 16px;
   height: 16px;
   background: transparent url('../img/sprite-scc5330cb55.png') 0 -5806px no-repeat;
 }
-.footer-type-2 .social-buttons li.pinterest a:hover {
+.social-buttons li.pinterest a:hover {
   background: transparent url('../img/sprite-scc5330cb55.png') 0 -5827px no-repeat;
 }
-.footer-type-2 .social-buttons li.youtube a {
+.social-buttons li.youtube a {
   width: 39px;
   height: 16px;
   background: transparent url('../img/sprite-scc5330cb55.png') 0 -5890px no-repeat;
 }
-.footer-type-2 .social-buttons li.youtube a:hover {
+.social-buttons li.youtube a:hover {
   background: transparent url('../img/sprite-scc5330cb55.png') 0 -5911px no-repeat;
 }
 

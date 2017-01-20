@@ -65,8 +65,8 @@
     function print_specific_div_content($class) {
         //alert("Hello world");
         var content = "";
-        content += Drupal.settings.okstatefair_custom.print_css_link_map;
-        content += "<div class='map-wrap' style='text-align: center;'  ><img style='height:800px;   margin: 0 auto;' src='" + Drupal.settings.okstatefair_custom.img_url + "'/></div>";
+        content += Drupal.settings.thegrounds_custom.print_css_link_map;
+        content += "<div class='map-wrap' style='text-align: center;'  ><img style='height:800px;   margin: 0 auto;' src='" + Drupal.settings.thegrounds_custom.img_url + "'/></div>";
         window.frames["print_frame_map"].document.body.innerHTML = content;
         window.frames["print_frame_map"].window.focus();
         window.frames["print_frame_map"].window.print();

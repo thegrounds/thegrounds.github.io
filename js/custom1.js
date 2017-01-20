@@ -5,11 +5,11 @@
   }
 
   currentUrl = window.location.href;
-  //  if (currentUrl == "http://okstatefairpark.com/") {
-  //    window.location.href = "http://thegrounds.com/#the-grounds";
+  //  if (currentUrl == "http://thegroundsmobile.com") {
+  //    window.location.href = "http://thegroundsmobile.com/index.html#the-grounds";
   //  }
-  //  if (currentUrl == "http://okstatefair.com/") {
-  //    window.location.href = "http://thegrounds.com/#greater-gulf-state-fair";
+  //  if (currentUrl == "http://thegroundsmobile.com") {
+  //    window.location.href = "http://thegroundsmobile.com/index.html#greater-gulf-state-fair";
   //  }
   if (currentUrl == "http://fairslice.net/") {
     window.location.href = "http://fairslice.net/blog";
