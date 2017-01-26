@@ -1036,7 +1036,7 @@ body #fancybox-close {
   display: block;
   /*font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;*/
   color: #231f20;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: bold;
   line-height: 11px;
   padding: 10px 30px 10px 20px;
@@ -2041,10 +2041,10 @@ body.node-type-the-grounds-event .body .sign-up-to-sell {
 .page-type-1 .header .logotype .logo,
 .page-type-4 .header .logotype .logo {
   float: left;
-  width: 115px;
-  height: 72px;
+  width: 170px;
+  height: 100px;
   background: transparent url('../img/ggsf-simple-logo.png') no-repeat;
-  background-size:  115px 72px;
+  background-size:  170px 100px;
 }
 .page-type-promo .header .logotype .type,
 .page-type-1 .header .logotype .type,
@@ -2238,7 +2238,7 @@ body.node-type-the-grounds-event .body .sign-up-to-sell {
 .page-type-4 .navigation .menu .item-0.opened .menu-item-text {
   background: transparent;
   border-radius: 5px;
-  width: 202px;
+  width: 210px;
   height: 32px;
   margin-top: 4px;
 }

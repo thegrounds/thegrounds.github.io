@@ -376,7 +376,7 @@
 .page-type-v .content-item-col p,
 .page-type-v .content-item-col strong {
   line-height: 20px;
-  font-size: 14px;
+  font-size: 18px;
 }
 .page-type-v .content-col strong,
 .page-type-v .content-item-col strong {
@@ -3527,6 +3527,7 @@
 .logo {
   text-align: center;
   padding: 0 0 15px;
+  margin-left: -90px;
 }
 .icons {
   float: left;
